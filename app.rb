@@ -3,5 +3,12 @@ get '/name' do
   "My name is _"
  end 
   
+  get '/hometown' do
+    "My hometown is _"
+  end
+  get '/favorit song' do
+    "My favorite song is _"
+  end
+  
   class App < Sinatra::Base
 end
